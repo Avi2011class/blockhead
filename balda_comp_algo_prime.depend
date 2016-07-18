@@ -1,0 +1,117 @@
+# depslib dependency file v1.0
+1468433408 source:/home/alexander/cproj/balda_comp_algo_prime/b-tree.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<time.h>
+	<assert.h>
+	<ctype.h>
+	<stddef.h>
+	"b-tree.h"
+
+1468433263 /home/alexander/cproj/balda_comp_algo_prime/b-tree.h
+	<stdint.h>
+
+1468857900 source:/home/alexander/cproj/balda_comp_algo_prime/main.c
+	<stdio.h>
+	<stdlib.h>
+	<wchar.h>
+	<locale.h>
+	<string.h>
+	"computerNext_utf-8.h"
+
+1468433241 source:/home/alexander/cproj/balda_comp_algo_prime/database.c
+	"database.h"
+	"b-tree.h"
+
+1465306898 /home/alexander/cproj/balda_comp_algo_prime/database.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"b-tree.h"
+
+1465224324 /home/alexander/cproj/balda_comp_algo_prime/memoryController.h
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<string.h>
+
+1465208282 source:/home/alexander/cproj/balda_comp_algo_prime/memoryController.c
+	"memoryController.h"
+
+1466602075 source:/home/alexander/cproj/balda_comp_algo_prime/computerNext.c
+	"computerNext.h"
+
+1468433862 /home/alexander/cproj/balda_comp_algo_prime/computerNext.h
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<stdint.h>
+	<string.h>
+	"database_utf-8.h"
+
+1468857664 source:/home/alexander/cproj/balda_comp_algo_prime/b-tree_utf-8.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<stddef.h>
+	<ctype.h>
+	<string.h>
+	<stdint.h>
+	<wchar.h>
+	<wctype.h>
+	<locale.h>
+	"b-tree_utf-8.h"
+
+1468508690 /home/alexander/cproj/balda_comp_algo_prime/b-tree_utf-8.h
+	<stdint.h>
+
+1468433048 /home/alexander/cproj/balda_comp_algo_prime/database_utf-8.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"b-tree_utf-8.h"
+
+1468857729 source:/home/alexander/cproj/balda_comp_algo_prime/database_utf-8.c
+	"database_utf-8.h"
+	"b-tree_utf-8.h"
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<stddef.h>
+	<ctype.h>
+	<string.h>
+	<stdint.h>
+	<wchar.h>
+	<wctype.h>
+	<locale.h>
+
+1468858111 source:/home/alexander/cproj/balda_comp_algo_prime/computerNext_utf-8.c
+	"computerNext_utf-8.h"
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<stddef.h>
+	<ctype.h>
+	<string.h>
+	<stdint.h>
+	<wchar.h>
+	<wctype.h>
+	<locale.h>
+	<limits.h>
+	"computerNext_utf-8.h"
+
+1468853516 /home/alexander/cproj/balda_comp_algo_prime/computerNext_utf-8.h
+	<stdint.h>
+	"insertion-control_utf-8.h"
+	"database_utf-8.h"
+
+1468849670 source:/home/alexander/cproj/balda_comp_algo_prime/insertion-control_utf-8.c
+	"insertion-control_utf-8.h"
+	<stdio.h>
+	<stdlib.h>
+
+1468857979 /home/alexander/cproj/balda_comp_algo_prime/insertion-control_utf-8.h
+	<stdint.h>
+	<wchar.h>
+
