@@ -174,15 +174,15 @@ class Field:
 
             for i in range(self.N - 1):
                 ch = '-'
-                if self.cells[j ][i].greater_down:
+                if self.cells[j][i].greater_down:
                     ch = 'v'
                 elif self.cells[j][i].less_down:
                     ch = '^'
                 result += ch + ' - '
             ch = '-'
-            if self.cells[j ][self.N - 1].greater_down:
+            if self.cells[j][-1].greater_down:
                 ch = 'v'
-            elif self.cells[j ][self.N - 1].less_down:
+            elif self.cells[j][-1].less_down:
                 ch = 'ʌ'
             result += ch + '\n'
 
@@ -196,7 +196,7 @@ class Field:
             if i.value > 0:
                 ch = str(i.value)
             result += '{0} {1} '.format(ch, splitter)
-        ch = str(self.cells[0][self.N - 1].value)
+        ch = str(self.cells[-1][-1].value)
         if ch == '0':
             result += '*' + '\n'
         else:
@@ -337,6 +337,7 @@ class Field:
         '''
         print(self)
         print(p, p_set)
+        print(self.cells[p[1]][p[2]].possible)
         input()
         '''
         flag = False
@@ -349,4 +350,5 @@ class Field:
 
 
 F = Field('example.txt')
+print(F)
 print(F.solve())
